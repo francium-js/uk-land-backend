@@ -3,7 +3,8 @@
     "node": ">=16.20.1"
   },
   "scripts": {
-    "s": "nodemon -r tsconfig-paths/register ./src/index.ts"
+    "s": "nodemon -r tsconfig-paths/register ./src/index.ts",
+    "hosting": "tsconfig-paths/register ./src/index.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
