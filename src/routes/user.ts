@@ -5,8 +5,8 @@ import { RoutesPath } from 'src/routes/types'
 
 const router = Router()
 
-//✔️ ❌
+// ✔️ ❌
 
-router.get(RoutesPath.USER, UserController.getAll) //✔️
+router.get(RoutesPath.USER, UserController.getAll) // ✔️
 
 export default router

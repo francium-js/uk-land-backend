@@ -6,10 +6,7 @@ class UserController {
   static async getAll(req: Request, res: Response): Promise<Response> {
     const result = await UserService.getAll()
 
-    if (!result) {
-      res.status(400).send({ message: 'Щось не так... х-х' })
-      return
-    }
+    if (!result) return res.status(400).send({ message: 'Щось не так... х-х' })
 
     return res.status(200).send(result)
   }

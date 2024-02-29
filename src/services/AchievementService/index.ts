@@ -1,4 +1,4 @@
-import { AchievementCollectionT } from 'src/services/AchievementService/types'
+import type { AchievementCollectionT } from 'src/services/AchievementService/types'
 import { UserAchievementModel } from 'src/models/achievement'
 
 class AchievementService {

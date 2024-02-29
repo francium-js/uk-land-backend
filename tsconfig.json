@@ -8,9 +8,9 @@
     "sourceMap": true,
     "outDir": "build",
     "rootDir": "src",
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "src/*": ["./src/*"]
+      "src/*": ["src/*"]
     }
   },
   "include": ["src"]

@@ -5,8 +5,8 @@ import { RoutesPath } from 'src/routes/types'
 
 const router = Router()
 
-//✔️ ❌
+// ✔️ ❌
 
-router.get(RoutesPath.ACHIEVEMENT, AchievementsController.findOne) //✔️
+router.get(RoutesPath.ACHIEVEMENT, AchievementsController.findOne) // ✔️
 
 export default router

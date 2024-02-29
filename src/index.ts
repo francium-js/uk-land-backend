@@ -1,7 +1,6 @@
 import mongoose from 'mongoose'
 import express from 'express'
 import dotenv from 'dotenv'
-import cors from 'cors'
 
 import user from 'src/routes/user'
 import achievement from 'src/routes/achievement'
