@@ -7,6 +7,6 @@ const router = Router()
 
 // ✔️ ❌
 
-router.get(RoutesPath.ACHIEVEMENT, AchievementsController.findOne) // ✔️
+router.get(RoutesPath.ACHIEVEMENTS, AchievementsController.findOne) // ✔️
 
 export default router
