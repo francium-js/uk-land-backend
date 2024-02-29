@@ -7,6 +7,7 @@
   "scripts": {
     "lint:format": "prettier --write ./src --log-level silent",
     "lint:fix": "eslint --fix --cache ./src --max-warnings=0 --color",
+    "hosting": "nodemon -r tsconfig-paths/register ./src/index.ts",
     "s": "nodemon -r tsconfig-paths/register ./src/index.ts"
   },
   "dependencies": {
