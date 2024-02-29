@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "removeComments": true,
     "esModuleInterop": true,
     "target": "ES6",
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "build",
-    "rootDir": "./src",
-    "baseUrl": ".",
+    "rootDir": "src",
+    "baseUrl": "./",
     "paths": {
       "src/*": ["./src/*"]
     }
